@@ -1,0 +1,22 @@
+.job-wrap {
+  padding: var(--gap-md) 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.job-title {
+  font-size: 18px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* @media (min-width: 500px) {
+  .job-wrap:hover {
+    background-color: var(--bg-secondary);
+  }
+  .job-wrap {
+    padding: var(--gap-md) 10px !important;
+  }
+} */

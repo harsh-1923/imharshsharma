@@ -1,0 +1,5 @@
+.context-sys-exp {
+  width: 100%;
+  max-width: var(--page-max-width);
+  font-size: 18px;
+}

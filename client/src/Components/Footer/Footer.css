@@ -1,0 +1,9 @@
+.footer {
+  border-top: var(--outline);
+  width: 100%;
+  max-width: var(--page-max-width);
+  margin-top: 20px;
+  padding: 20px 0px 80px 0px;
+  text-align: center;
+  color: var(--text-secondary);
+}

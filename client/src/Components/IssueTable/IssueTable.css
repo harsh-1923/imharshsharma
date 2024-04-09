@@ -1,0 +1,43 @@
+/* styles.css */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  outline: var(--outline);
+  margin: var(--gap-xl) 0px;
+}
+
+.issue-header {
+  border-right: var(--outline);
+}
+
+.issue-header,
+.status-header {
+  /* outline: var(--outline); */
+  text-align: left;
+  padding: 8px;
+  background-color: var(--bg-primary);
+}
+
+.issue-cell {
+  border-right: var(--outline);
+}
+
+.status-cell {
+  width: 20%;
+  min-width: 100px;
+}
+
+.issue-cell,
+.status-cell {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: var(--bg-secondary);
+}
+
+tr:nth-child(even) {
+  background-color: var(--bg-primary);
+}

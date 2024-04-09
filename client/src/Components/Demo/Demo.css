@@ -1,0 +1,29 @@
+.cd-wrap {
+  outline: var(--outline);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cd-label {
+  padding: 20px 20px 10px 20px;
+  margin-top: 20px;
+  background-color: var(--bg-secondary);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: left;
+}
+
+.cd-li {
+  text-decoration: none;
+  list-style-type: none;
+}

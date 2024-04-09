@@ -1,0 +1,13 @@
+.home-wrap {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  max-width: var(--page-max-width);
+}
+
+.subheader {
+  font-weight: 500;
+  font-size: 18px;
+  padding: 20px 0px;
+}

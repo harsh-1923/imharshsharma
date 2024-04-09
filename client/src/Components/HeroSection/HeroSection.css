@@ -1,0 +1,25 @@
+.hs-wrap {
+  width: 100%;
+  margin: 20px 0px;
+  min-height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.handwave {
+  animation: handwaveAnimation 2s infinite;
+}
+
+@keyframes handwaveAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
