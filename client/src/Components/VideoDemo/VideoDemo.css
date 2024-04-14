@@ -3,12 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: var(--bg-secondary); */
-  outline: var(--outline);
+  outline: 1px solid var(--outline-color);
   padding: 20px;
   border-radius: 10px;
   margin: var(--gap-xl) 0px;
-  /* filter: blur(4px); */
 }
 
 .vd {

@@ -1,0 +1,41 @@
+.radix-label {
+  --radix-label-size: 20px;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-md);
+  padding: var(--gap-md) 0px;
+}
+
+.radix-label-root {
+  width: var(--radix-label-size);
+  height: var(--radix-label-size);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.radix-label-root:where([data-state="unchecked"]) {
+  outline: var(--outline);
+  background-color: var(--bg-secondary) !important;
+}
+
+.radix-checkbox-label {
+  color: var(--text-primary);
+  font-size: 15px;
+  line-height: 1;
+}
+
+.radix-label-indicator {
+  color: var(--text-primary);
+  margin-top: 2px;
+}
+
+.radix-label-root:hover {
+  box-shadow: 0 0 0 2px rgba(247, 244, 244, 0.161);
+}
+
+.radix-label-root:focus {
+  border: 1px solid var(--accent) !important;
+}

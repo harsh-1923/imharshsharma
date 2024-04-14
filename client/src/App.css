@@ -21,6 +21,7 @@
   align-items: center;
   justify-content: center;
   padding: 0px 10px;
+  color: var(--accent);
 }
 
 .globe-svg {
@@ -65,4 +66,9 @@
 .sub-header {
   font-size: 20px;
   padding: var(--gap-xxl) 0px var(--gap-xl) 0px;
+}
+
+ul > li {
+  margin-left: 15px;
+  margin-bottom: 5px;
 }

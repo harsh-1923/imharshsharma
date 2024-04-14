@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   max-width: var(--page-max-width);
-  scroll-behavior: smooth;
 }
 
 .index-tray {
@@ -69,7 +68,7 @@
 }
 
 .is-wrap code {
-  background-color: var(--bg-secondary);
+  background-color: rgb(26, 26, 26);
   padding: 2px 5px;
 }
 

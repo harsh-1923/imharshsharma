@@ -2,7 +2,7 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div style={{ marginBottom: "-20px" }} className="img-wrap">
+    <div className="img-wrap">
       <svg
         width="791"
         height="111"

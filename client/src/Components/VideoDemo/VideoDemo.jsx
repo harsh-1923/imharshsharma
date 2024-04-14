@@ -1,10 +1,10 @@
 import React from "react";
 import "./VideoDemo.css";
 
-const VideoDemo = ({ src }) => {
+const VideoDemo = ({ src, autoPlay = false }) => {
   return (
     <div className="video-demo">
-      <video className="vd" src={src} autoPlay={true} loop controls></video>
+      <video className="vd" src={src} autoPlay={autoPlay} loop controls></video>
     </div>
   );
 };

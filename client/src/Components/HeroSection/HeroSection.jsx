@@ -4,8 +4,9 @@ import "./HeroSection.css";
 const HeroSection = () => {
   return (
     <div className="hs-wrap">
+      <div className="handwave">👋</div>
+
       <p aria-label="Hero Section" className="basic-text">
-        <div className="handwave">👋</div>
         Hi, I am a Software Engineer based in Bengaluru, India, with a little
         over a year of experience in developing large-scale software
         applications and user experiences.

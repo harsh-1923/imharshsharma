@@ -8,6 +8,10 @@ import NotificationSystem from "./Pages/Experiments/NotificationSystem/Notificat
 import IndexSystem from "./Pages/Experiments/IndexSystem/IndexSystem";
 
 import ContextSystem from "./Pages/Experiments/ContextSystem/ContextSystem";
+import DragAnimation from "./Pages/Experiments/DragAnimation/DragAnimation";
+import TestIndexPage from "./Pages/Experiments/TestIndexPage/TestIndexPage";
+import BlurTickerPage from "./Pages/Experiments/BlurTickerPage/BlurTickerPage";
+// import BlurTickerPage from "./Pages/Experiments/BlurTickerPage/BlurTickerPage";
 
 function App() {
   return (
@@ -20,8 +24,12 @@ function App() {
           path="/exp/notification-system"
           element={<NotificationSystem />}
         />
-        <Route path="/exp/index-system" element={<IndexSystem />} />
+        {/* <Route path="/exp/index-system" element={<IndexSystem />} /> */}
+        <Route path="/exp/index-system" element={<TestIndexPage />} />
         <Route path="/exp/context-system" element={<ContextSystem />} />
+        <Route path="/exp/draggable-system" element={<DragAnimation />} />
+        {/* <Route path="/exp/blur-ticker" element={<BlurTickerPage />} /> */}
+        <Route path="/exp/blur-ticker" element={<BlurTickerPage />} />
       </Routes>
       <Footer />
     </main>

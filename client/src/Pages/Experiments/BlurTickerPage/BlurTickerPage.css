@@ -1,0 +1,33 @@
+.bt-page-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: var(--page-max-width);
+  position: relative;
+  min-height: 70vh;
+  padding-top: var(--gap-xl);
+}
+
+.bt-demo-wrap {
+  width: 100%;
+  height: 300px;
+  border-radius: var(--gap-xl);
+  max-width: 600px;
+  /* 
+  background: radial-gradient(
+    ellipse 80% 100% at 50% -50%,
+    #0f4e12 0%,
+    #010702 100%
+  ); */
+
+  /* background: radial-gradient(
+    ellipse 100% 100% at 50% -40%,
+    #104627 20%,
+    #010503e6
+  ); */
+
+  background: radial-gradient(100% 100% at 50% -50%, #0f4e12 0%, #000100 100%);
+}
+
+/* Frame 3 */

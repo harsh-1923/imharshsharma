@@ -1,0 +1,35 @@
+.inline-link {
+  border-bottom: 1px dashed var(--outline-color);
+}
+
+.outline-demo-area {
+  width: 100%;
+  outline: 1px dashed var(--outline-color);
+  padding: var(--gap-xl);
+  border-radius: var(--gap-xs);
+  margin: var(--gap-md) 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.outline-demo-area > small {
+  text-align: center;
+  max-width: 400px;
+  padding-top: 20px;
+  color: var(--text-secondary);
+}
+
+.demo-button {
+  padding: 10px 20px;
+  height: 40px;
+  border-radius: 0.2rem;
+  outline: 1px solid var(--outline-color);
+  border: none;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}

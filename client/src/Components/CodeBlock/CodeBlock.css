@@ -1,0 +1,82 @@
+/* pre {
+  counter-reset: line;
+}
+
+.cb-main > code > [data-line]::before {
+  content: counter(line);
+  counter-increment: line;
+  position: absolute;
+  left: 0;
+  padding-left: 3em;
+  padding-right: 0em;
+  color: #999;
+} */
+
+.cb-wrap {
+  overflow: hidden;
+  border-radius: var(--gap-md);
+  max-width: var(--page-max-width);
+  margin: var(--gap-xl) 0px;
+}
+
+/* .cb-files-navbar {
+  margin-top: 5px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4px;
+  font-size: smaller;
+  align-items: center;
+  width: 100%;
+} */
+
+/* .cb-files-navbar p {
+  margin: 0;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.cb-files-navbar-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding-right: 10px;
+  margin-right: 5px;
+} */
+
+/* .cb-files-navbar-copy-btn ion-icon {
+  font-size: 1.2rem;
+} */
+
+/* SCROLLBAR CUSTOMIZATION */
+/* pre::-webkit-scrollbar {
+  width: 8px;
+}
+
+pre::-webkit-scrollbar-track {
+  background: #3a404d;
+}
+
+pre::-webkit-scrollbar-thumb {
+  background: #6c7383;
+  border-radius: 4px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+.cb-code-block {
+  position: relative;
+  line-height: 1.4;
+  border-radius: var(--gap-md);
+  padding: var(--gap-md) var(--gap-md);
+  border: 1px solid var(--outline-color);
+  overflow: scroll;
+  background-color: black;
+  margin: var(--gap-xl) 0px;
+}

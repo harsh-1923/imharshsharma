@@ -1,0 +1,146 @@
+.da-page-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: var(--page-max-width);
+  position: relative;
+}
+
+.da-demo1-test {
+  position: absolute;
+  top: var(--gap-md);
+  left: var(--gap-md);
+  user-select: none;
+  color: var(--text-primary);
+  z-index: 10;
+  mix-blend-mode: difference;
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .da-demo1-test {
+    font-size: 12px;
+  }
+}
+
+.da-demo1-wrap {
+  width: 100%;
+  outline: var(--outline);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: var(--gap-md);
+  gap: var(--gap-xl);
+  border-radius: var(--gap-xs);
+}
+
+.da-demo1-drag-constraints {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--gap-xs);
+}
+
+.da-demo1-drag-constraints:where([data-state-reveal="true"]) {
+  outline: 1px dashed rgba(128, 128, 128, 0.28);
+}
+
+.draggable {
+  width: 100px;
+  height: 100px;
+  background-color: var(--accent);
+
+  border-radius: 50%;
+  cursor: grab;
+}
+
+.da-demo1-controls-wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.da-demo1-controls {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* -------__RADIX_SLIDER___________ */
+
+.SliderRoot {
+  position: relative;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  touch-action: none;
+  width: 200px;
+  height: 15px;
+}
+
+.SliderTrack {
+  background-color: black;
+  position: relative;
+  flex-grow: 1;
+  border-radius: 9999px;
+  height: 3px;
+}
+
+.SliderRange {
+  position: absolute;
+  background-color: var(--accent);
+  border-radius: 9999px;
+  height: 100%;
+}
+
+.SliderThumb {
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  box-shadow: 0 2px 10px rgb(78, 78, 78);
+  border-radius: 10px;
+}
+/* .SliderThumb:hover {
+  background-color: var(--accent);
+} */
+.SliderThumb:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px var(--accent-blue);
+}
+
+.CheckboxRoot {
+  background-color: var(--accent);
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.CheckboxRoot:hover {
+  background-color: var(--accent-blue);
+}
+.CheckboxRoot:focus {
+  box-shadow: 0 0 0 2px var(--accent-blue);
+}
+
+.CheckboxIndicator {
+  color: whitesmoke;
+  margin-top: 2px;
+}
+
+/* .da-d1-demo-checkbox-label {
+  color: white;
+  padding-left: 15px;
+  font-size: 15px;
+  line-height: 1;
+} */
